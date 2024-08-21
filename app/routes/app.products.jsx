@@ -3,7 +3,6 @@
 
 // This is Code is Final it work properly 
 
-
 import { json } from "@remix-run/node";
 import { authenticate } from "../shopify.server";
 import { OpenAI } from "openai";
@@ -23,7 +22,7 @@ export const loader = async ({ request }) => {
           }
         }
       }
-    }`
+    }` 
   );
 
   try {
@@ -44,7 +43,7 @@ export const loader = async ({ request }) => {
 //--------------------------------------------------
 
     // Initialize OpenAI with the API key from the environment variable
-    const apiKey = "";
+    const apiKey =process.env.apiKey;
     if (!apiKey) {
       throw new Error("OpenAI API key is missing.");
     }
