@@ -1,4 +1,10 @@
+<<<<<<< HEAD
   
+=======
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+>>>>>>> a2b2c20a582c29384f880efbd00ea166840636c1
 
 .index {
   align-items: center;

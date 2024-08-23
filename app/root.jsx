@@ -5,6 +5,13 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
+<<<<<<< HEAD
+=======
+import styles from "./tailwind.css";
+export const links = () => [
+  { rel: "stylesheet", href: styles },
+];
+>>>>>>> a2b2c20a582c29384f880efbd00ea166840636c1
 
 import styles from "./tailwind.css";
 export const links = () => [
