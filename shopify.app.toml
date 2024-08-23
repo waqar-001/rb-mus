@@ -3,7 +3,7 @@
 client_id = "c2986c488789ec5cdf98b63e13431da9"
 name = "rb-mus"
 handle = "rb-mus"
-application_url = "https://obj-currently-arch-adjustment.trycloudflare.com"
+application_url = "https://extras-airport-builders-poly.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "read_products"
 
 [auth]
 redirect_urls = [
-  "https://obj-currently-arch-adjustment.trycloudflare.com/auth/callback",
-  "https://obj-currently-arch-adjustment.trycloudflare.com/auth/shopify/callback",
-  "https://obj-currently-arch-adjustment.trycloudflare.com/api/auth/callback"
+  "https://extras-airport-builders-poly.trycloudflare.com/auth/callback",
+  "https://extras-airport-builders-poly.trycloudflare.com/auth/shopify/callback",
+  "https://extras-airport-builders-poly.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
