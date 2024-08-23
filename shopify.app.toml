@@ -3,11 +3,7 @@
 client_id = "9f02f6f57caec3d69e6f5b7725e6df9a"
 name = "rb-mus"
 handle = "rb-mus"
-<<<<<<< HEAD
-application_url = "https://retain-wisdom-scholarships-arrow.trycloudflare.com"
-=======
 application_url = "https://extras-airport-builders-poly.trycloudflare.com"
->>>>>>> a2b2c20a582c29384f880efbd00ea166840636c1
 embedded = true
 
 [build]
@@ -22,15 +18,9 @@ scopes = "write_products, read_products"
 
 [auth]
 redirect_urls = [
-<<<<<<< HEAD
-  "https://retain-wisdom-scholarships-arrow.trycloudflare.com/auth/callback",
-  "https://retain-wisdom-scholarships-arrow.trycloudflare.com/auth/shopify/callback",
-  "https://retain-wisdom-scholarships-arrow.trycloudflare.com/api/auth/callback"
-=======
   "https://extras-airport-builders-poly.trycloudflare.com/auth/callback",
   "https://extras-airport-builders-poly.trycloudflare.com/auth/shopify/callback",
   "https://extras-airport-builders-poly.trycloudflare.com/api/auth/callback"
->>>>>>> a2b2c20a582c29384f880efbd00ea166840636c1
 ]
 
 [webhooks]

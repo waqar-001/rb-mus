@@ -3,7 +3,7 @@
 client_id = "9f02f6f57caec3d69e6f5b7725e6df9a"
 name = "rb-mus"
 handle = "rb-mus-1"
-application_url = "https://suggests-strips-july-tables.trycloudflare.com"
+application_url = "https://represented-current-abu-carrier.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "read_products,write_products"
 
 [auth]
 redirect_urls = [
-  "https://suggests-strips-july-tables.trycloudflare.com/auth/callback",
-  "https://suggests-strips-july-tables.trycloudflare.com/auth/shopify/callback",
-  "https://suggests-strips-july-tables.trycloudflare.com/api/auth/callback"
+  "https://represented-current-abu-carrier.trycloudflare.com/auth/callback",
+  "https://represented-current-abu-carrier.trycloudflare.com/auth/shopify/callback",
+  "https://represented-current-abu-carrier.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

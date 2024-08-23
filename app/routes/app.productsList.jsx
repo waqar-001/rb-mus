@@ -1,10 +1,4 @@
 
-<<<<<<< HEAD
-// Best one 
-import { useLoaderData } from "@remix-run/react";
-import MultiPageBook from '../components/MultiPageBook.jsx';
-import { loader as fetchProductDescriptionsLoader } from './app.products.jsx'; // Import the loader from app.products
-=======
 
 
 // // Best one 
@@ -108,7 +102,6 @@ import { loader as fetchProductDescriptionsLoader } from './app.products.jsx'; /
 import { useLoaderData, useFetcher } from "@remix-run/react";
 import MultiPageBook from '../components/MultiPageBook';
 import { loader as fetchProductDescriptionsLoader } from './app.products.jsx';
->>>>>>> a2b2c20a582c29384f880efbd00ea166840636c1
 
 export const loader = fetchProductDescriptionsLoader;
 
