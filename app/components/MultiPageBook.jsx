@@ -74,7 +74,7 @@ const MultiPageBook = ({ pages }) => {
         <div className="flex relative flex-col items-center justify-center h-screen w-screen p-4">
             {/* Page Number Display */}
             <div className="absolute top-4 flex justify-center w-full">
-                <span className="text-lg font-semibold">
+                <span className="text-lg font-semibold">    
                     Page 1 of {pages.length}
                 </span>
             </div>
