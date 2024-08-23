@@ -1,9 +1,9 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
-client_id = "813209388aa95e2a9e748086d6dbbf7e"
+client_id = "9f02f6f57caec3d69e6f5b7725e6df9a"
 name = "rb-mus"
 handle = "rb-mus-1"
-application_url = "https://depot-comfort-viewer-rebates.trycloudflare.com"
+application_url = "https://suggests-strips-july-tables.trycloudflare.com"
 embedded = true
 
 [build]
@@ -13,13 +13,13 @@ include_config_on_deploy = true
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = ""
+scopes = "read_products,write_products"
 
 [auth]
 redirect_urls = [
-  "https://depot-comfort-viewer-rebates.trycloudflare.com/auth/callback",
-  "https://depot-comfort-viewer-rebates.trycloudflare.com/auth/shopify/callback",
-  "https://depot-comfort-viewer-rebates.trycloudflare.com/api/auth/callback"
+  "https://suggests-strips-july-tables.trycloudflare.com/auth/callback",
+  "https://suggests-strips-july-tables.trycloudflare.com/auth/shopify/callback",
+  "https://suggests-strips-july-tables.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

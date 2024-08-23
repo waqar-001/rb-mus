@@ -43,7 +43,7 @@ export const loader = async ({ request }) => {
 //--------------------------------------------------
 
     // Initialize OpenAI with the API key from the environment variable
-    const apiKey = '';
+    const apiKey = process.env.API_KEY;
     if (!apiKey) {
       throw new Error("OpenAI API key is missing.");
     }

@@ -13,6 +13,7 @@ import { TitleBar } from "@shopify/app-bridge-react";
 export default function AdditionalPage() {
   return (
     <Page>
+    <h1 className=" text-green-800">Text</h1>
       <TitleBar title="Additional page" />
       <Layout>
         <Layout.Section>
